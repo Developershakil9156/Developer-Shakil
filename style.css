@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*::selection{
+    background-color: #17c5ab;
+    color: rgb(27, 26, 26);
+}
+
+/* Navbar Section css here */
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* position: fixed;
+    width: 100%;
+    height: 100%; */
+}
+.navbar .navbar-nav .nav-item{
+    padding-left: 1rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    text-align: left;
+    font-size: 14px;
+    transition: .5s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item:nth-child(1) .nav-link{
+    color: #23d6bb;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #17c5ab;
+}
+
+
+/* Bannar Section css here */
+
+.bannar-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./image/Developer_Shakil.jpeg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.img-content{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    text-align: center;
+    z-index: 999;
+    
+   
+  
+}
+.img-content h5{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: monospace;
+    font-weight: 300;
+    /* font-size: 64px */
+}
+.img-content h1{
+    font-size: 5rem;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    /* font-size: 80px; */
+}
+.img-content p{
+    font-size: 1rem;
+    color: rgb(223, 219, 219);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    
+}
+
+/* bg overlay */
+.bannar-section{
+    position: relative;
+}
+.bannar-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 100;
+}
+
+/* About Section css Here */
+
+.about-me h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    
+}
+
+.contant  h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+
+}
+
+.contant p{
+    line-height: 24px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contant .btn-dark{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    border: 2px solid transparent;
+}
+.contant .btn-dark:hover{
+    border: 2px solid #0cbb83;
+    
+}
+
+
+/* Service Sectcion Css Here */
+
+.service-section h1{
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+
+
+.service-section .s-btn .btn-dark{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    border: 2px solid transparent;
+}
+.service-section .s-btn .btn-dark:hover{
+    border: 2px solid #0cbb83;
+    
+}
+
+
+/* Newslatter SEction */
+
+.newslatter{
+    background-color: #f8fafb;
+    
+}
+.newslatter h4 {
+	font-size: 31px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.newslatter .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-left: 150px 0px; */
+}
+
+/* contact section css here */
+
+.contact h1{
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+
+}
+/* Fotter top css here */
+.dev1 .dev{
+    color: #2ceeaa;
+}
+
+.dev1{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: #ffff;
+}
+
+
+
+   

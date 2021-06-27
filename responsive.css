@@ -1,0 +1,271 @@
+/* Bismillahir Rahmanir Rahim */
+
+/* Responsive css Start HEre */
+@media (max-width:1125px){
+    .bannar-section {
+        height: 80vh;
+
+    }
+
+}
+
+@media (max-width:1020px){
+    .navbar {
+        background-color: #fff !important;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #171616;
+       
+    }
+    .navbar-toggler {
+        margin-left: auto;
+    }
+    .bannar-section {
+        height: 70vh;
+
+    }
+}
+
+@media (max-width:880px){
+    .bannar-section {
+        height: 57vh;
+    }
+
+}
+
+@media (max-width:840px) {
+    .navbar {
+        background-color: #fff !important;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #171616;
+       
+    }
+    .bannar-section {
+       
+        height: 45vh;
+
+    }
+    .img-content h5 {
+        font-size: 3rem;
+
+    }
+    .img-content h1 {
+        font-size: 4rem;
+    }
+    .navbar-toggler {
+
+        margin-left: auto;
+    }
+
+
+    
+}
+
+@media (max-width:750px){
+    .about-me h1 {
+        font-size: 2rem;
+    }
+    .contant h2 {
+        font-size: 1.5rem;
+    }
+    .service-section h1 {
+        font-size: 2rem;
+    }
+    h5.card-title {
+        font-size: 16px !important;
+    }
+    p.card-text {
+        font-size: 13px;
+    }
+    .form-inline button {
+        padding: 5px 13px;
+        position: relative;
+        bottom: 5px;
+    }
+    .contact h1 {
+        font-size: 2rem;
+    }
+    .newslatter h4 {
+        font-size: 25px;
+    }
+    .form-inline button {
+        position: relative;
+        top: 0px;
+    }
+
+   
+
+}
+
+@media (max-width:630px){
+    .bannar-section {
+        height: 30vh;
+    }
+    .img-content h1 {
+        font-size: 3rem;
+    }
+    .img-content h5 {
+        font-size: 2rem;
+    }
+    .navbar-toggler {
+
+        margin-left: auto;
+    }
+   
+
+}
+
+@media (max-width:580px){
+    .form-inline button {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:560px){
+    .img-content h5 {
+        font-size: 1.5rem;
+    }
+    .img-content h1 {
+        font-size: 2.3rem;
+    }
+    .img-content p {
+        font-size: .700rem;
+    }
+    .bannar-section {
+        height: 20vh;
+    }
+    .navbar-toggler {
+
+        margin-left: auto;
+    }
+    .bannar-section {
+        height: 28vh;
+    }
+    .form-control {
+        margin-bottom: 10px;
+    }
+    .n p {
+        font-size: .8rem;
+    }
+
+
+}
+
+@media (max-width:450px){
+
+    .form-inline {
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width:360px){
+    .bannar-section {
+        height: 15vh;
+    }
+    .img-content h5 {
+        font-size: 1.2rem;
+    }
+    .img-content h1 {
+        font-size: 1.5rem;
+    }
+    .img-content p {
+        font-size: .500rem;
+    }
+    .contant p {
+        line-height: 22px;
+        font-size: 15px;
+     
+    }
+    .bannar-section {
+        height: 22vh;
+    }
+    #contact hr {
+        width: 45% !important;
+    }
+}
+
+@media (max-width:335px){
+    .about-me h1 {
+        font-size: 1.5rem;
+    }
+    .contant h2 {
+        font-size: 1.3rem;
+    }
+    .about-me h1 {
+        font-size: 1.1rem;
+    }
+    .contant h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .contant p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .contant .btn-dark {
+        font-size: 10px;
+    }
+    .bannar-section {
+        height: 30vh;
+    }
+    .service-section h1 {
+        font-size: 1.1rem;
+    }
+    .service-section h1 {
+        font-size: 2rem;
+    }
+    #contact hr {
+        width: 45% !important;
+    }
+    .service-section h1 {
+        font-size: 1.1rem;
+    }
+    .newslatter h4 {
+        font-size: 16px;
+    }
+    .n p {
+        font-size: .6rem;
+    }
+    .form-inline button {
+        font-size: .6rem;
+    }
+    .contact h1 {
+        font-size: 1.1rem;
+    }
+    .btn.btn-dark.py-2 {
+        font-size: .6rem;
+    }
+    .service-section .s-btn .btn-dark {
+        font-size: .8rem;
+    }
+    .contant .btn-dark {
+        font-size: 9px;
+    }
+    .btn-dark {
+        font-size: .5rem;
+    }
+    .dev1 {
+        font-size: .8rem;
+    }
+
+}
+
+
+@media (max-width:250px){
+    .img-content h5 {
+        font-size: 1rem;
+    }
+    .img-content h1 {
+        font-size: 1.1rem;
+    }
+    .img-content p {
+        font-size: .300rem;
+    }
+    .dev1 .dev {
+        display: block;
+    }
+}
